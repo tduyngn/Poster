@@ -1,0 +1,188 @@
+html{
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    height: 100px;
+    position:fixed;
+    background: #d8d8d8;
+    width: 100%;
+    top:90%;
+}
+
+#books-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.book{
+    height: 980px;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.letter {
+    width:2.6178010471204187vw; /*resize as you see fit */
+    height:5.4vw; /*resize as you see fit */
+    display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    /*border: 1px solid fuchsia; */
+    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+    margin: 0.15706806282722513vw;
+}
+
+
+.stem{
+    background: rgb(255, 0, 0);
+    width: 0.5211047420531527vw;
+    height: 2.8660760812923396vw; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 2.344971339239187vw;
+    left: 0;
+}
+
+.stem_1{
+    background: rgb(255, 0, 0);
+    width: 2.6055237102657633vw;
+    height: 0.5211047420531527vw; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 4.689942678478374vw;
+    left: 0vw;
+}
+
+.stem_2{
+    background: rgb(255, 0, 0);
+    width: 0.5211047420531527vw;
+    height: 2.8660760812923396vw; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 1.5633142261594581vw;
+    left: 2.084418968212611vw;
+}
+
+.stem_3{
+    background: rgb(255, 0, 0);
+    width: 2.6055237102657633vw;
+    height: 0.5211047420531527vw; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 1.5633142261594581vw;
+    left: 0vw;
+}
+
+.long_stem_l{
+    background: rgb(255, 0, 0);
+    width: 0.5211047420531527vw;
+    height: 5.211047420531527vw; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 0vw;
+    left: 0vw; 
+}
+
+.small_upper_stem_right{
+    background: rgb(255, 0, 0);
+    width: 0.5211047420531527vw;
+    height:2.084418968212611vw; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top:0vw;
+    left: 2.084418968212611vw;
+}
+
+.letter-i{
+    width:0.5211047420531527vw;
+}
+
+.stem_i{
+    background: rgb(255, 0, 0);
+    width: 0.5211047420531527vw;
+    height: 3.6477331943720688vw; 
+    border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    position: absolute;
+    top: 1.5633142261594581vw;
+    left: 0vw;
+}
+
+.dot{
+    background: rgb(255, 0, 0);
+    width:0.5211047420531527vw;
+    height: 0.5211047420531527vw;
+    border-radius: 35%;
+    position: absolute;
+    top: 0.7816571130797291vw;
+    left:0;
+}
+
+.upper_stem_k{
+     background: rgb(255, 0, 0);
+     width: 0.5211047420531527vw;
+     height: 1.5633142261594581vw;
+     border-top-left-radius: 80px 80px;
+     border-top-right-radius: 80px 80px;
+     border-bottom-right-radius: 80px 80px;
+     border-bottom-left-radius: 80px 80px;
+     position: absolute;
+     top: 0.5211047420531527vw;
+     right: 0.7816571130797291vw;
+}
+
+.middle_stem_k{
+     background: rgb(255, 0, 0);
+     width: 1.8238665971860344vw;
+     height: 0.5211047420531527vw;
+     border-top-left-radius: 80px 80px;
+     border-top-right-radius: 80px 80px;
+     border-bottom-right-radius: 80px 80px;
+     border-bottom-left-radius: 80px 80px;
+     position: absolute;
+     top: 2.344971339239187vw;
+     right: 0vw;
+}
+
+.bottom_stem_k{
+     background: rgb(255, 0, 0);
+     width: 0.5211047420531527vw;
+     height: 2.8660760812923396vw;
+     border-top-left-radius: 80px 80px;
+     border-top-right-radius: 80px 80px;
+     border-bottom-right-radius: 80px 80px;
+     border-bottom-left-radius: 80px 80px;
+     position: absolute;
+     top: 2.344971339239187vw;
+     right: 0vw;
+}
+
+#dudukiki{
+    bottom:1px;
+    left: 39%;
+    position: fixed;
+}
+ 
