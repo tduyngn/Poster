@@ -9,4 +9,4 @@ for (var i = 0; i < pix.length; i++) {
   pix[i].style.animationDelay = Math.ceil(Math.random()*5000)+"ms";
 }
 
-alert("scale me")
+alert("scale the screen (PC only)")
