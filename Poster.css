@@ -225,4 +225,14 @@ img{
     100%  {opacity: 0.0;}
   }
 
- 
+  @media (max-height: 500px){
+      #dudukiki,
+      img{
+         display:none;
+      }
+      .pixel{
+        filter: url("Asset 1.svg");
+        filter: hue-rotate(90deg);
+      }
+  }
+
